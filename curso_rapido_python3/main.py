@@ -23,4 +23,13 @@
 # import operadores.ternario
 
 # import controle.if_1
-import controle.if_2
+# import controle.if_2
+
+from function1 import basic
+
+basic.saudacao()
+basic.saudar_pessoa()
+basic.saudar_pessoa('Rafael')
+basic.saudar_pessoa_idade()
+basic.saudar_pessoa_idade('Rogério', 55)
+basic.saudar_pessoa_idade(idade = 75)
