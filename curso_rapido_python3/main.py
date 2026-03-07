@@ -33,3 +33,14 @@ basic.saudar_pessoa('Rafael')
 basic.saudar_pessoa_idade()
 basic.saudar_pessoa_idade('Rogério', 55)
 basic.saudar_pessoa_idade(idade = 75)
+
+# Passando params desordenados
+a = basic.soma_e_mult(b = 2, x = 10, a = 3)
+print(a)
+
+#Params seguindo a seq de declaração na def
+b = basic.soma_e_mult(2, 2, 8)
+print(b)
+
+resultado = a + b
+print(resultado)
